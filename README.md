@@ -1,2 +1,2 @@
-# Project Management With To-Do React Redux
+# Project Management React Redux
  
