@@ -15,7 +15,7 @@ export default function Index() {
         >
           <ul className="hidden lg:flex justify-center items-center space-x-10 cursor-pointer text-gray-100 text-base leading-4">
             <li>
-              <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-violet-300 duration-200 font-semibold">
+              <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellowComplement duration-200 font-semibold">
                 Home
               </a>
             </li>
@@ -100,12 +100,12 @@ c14 -6 30 -22 36 -36 14 -31 16 -980 1 -1017 -13 -35 -59 -56 -132 -59 l-63
           </div>
           <ul className="hidden lg:flex space-x-10 justify-center items-center cursor-pointer text-gray-100 text-base leading-4">
             <li>
-              <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-violet-300 duration-200 font-semibold">
+              <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellowComplement duration-200 font-semibold">
                 About Me
               </a>
             </li>
             <li>
-              <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-violet-300 duration-200 font-semibold">
+              <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellowComplement duration-200 font-semibold">
                 Logout
               </a>
             </li>
@@ -118,17 +118,17 @@ c14 -6 30 -22 36 -36 14 -31 16 -980 1 -1017 -13 -35 -59 -56 -132 -59 l-63
           } `}
         >
           <li className=" cursor-pointer hover:text-gray-100">
-            <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-teal-400 duration-200">
+            <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellowComplement duration-200">
               Community
             </a>
           </li>
           <li className=" cursor-pointer hover:text-gray-100">
-            <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-teal-400 duration-200">
+            <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellowComplement duration-200">
               Login
             </a>
           </li>
           <li className=" cursor-pointer hover:text-gray-100">
-            <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-teal-400 duration-200">
+            <a className="ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellowComplement duration-200">
               About
             </a>
           </li>

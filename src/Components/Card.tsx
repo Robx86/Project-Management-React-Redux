@@ -40,10 +40,10 @@ export default function IndexPage() {
                 </svg>
               </button>
               <div className="dropdown-content bg-white shadow w-24 absolute left-0 -ml-16 sm:-ml-12 md:-ml-16 z-30 hidden">
-                <div className="text-xs w-full hover:bg-indigo-700 py-4 px-4 cursor-pointer hover:text-white">
+                <div className="text-xs w-full hover:bg-yellowComplement py-4 px-4 cursor-pointer hover:text-white">
                   <p>Edit</p>
                 </div>
-                <div className="text-xs w-full hover:bg-indigo-700 py-4 px-4 cursor-pointer hover:text-white">
+                <div className="text-xs w-full hover:bg-yellowComplement py-4 px-4 cursor-pointer hover:text-white">
                   <p>Delete</p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function IndexPage() {
                 src="https://i.ibb.co/nRjJkRz/Photo2.png"
                 alt="profile "
               />
-              <div className="w-10 h-10 rounded-full ml-1 flex items-center justify-center bg-violet-500 cursor-pointer">
+              <div className="w-10 h-10 rounded-full ml-1 flex items-center justify-center bg-yellowComplement cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={14}
