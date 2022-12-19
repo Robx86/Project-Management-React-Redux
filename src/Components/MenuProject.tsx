@@ -388,6 +388,8 @@ export default function index() {
           </div>
         </nav>
       </div>
+      <div className="hidden bg-redComplement text-redComplement"></div>
+      <div className="hidden bg-greenComplement text-greenComplement"></div>
     </div>
   );
 }
