@@ -13,7 +13,7 @@ const index = (props) => {
               </div>
               <div className="pt-2">
                 <p className="text-lg font-semibold leading-5 pt-1 cursor-pointer text-black ">
-                  Tarefa Para número {props.content}
+                  {props.content}
                 </p>
                 <p className="text-sm leading-4 pt-2 text-gray-800">
                   <span className="text-indigo-700 font-semibold cursor-pointer">
