@@ -11,7 +11,7 @@ export default function Index() {
           id="Navigation"
           className={` ${
             show ? "hidden" : ""
-          } flex justify-between items-center md:py-8 lg:px-20 md:px-6 p-4`}
+          } flex justify-between bg-bestGray items-center md:py-8 lg:px-20 md:px-6 p-4`}
         >
           <ul className="hidden lg:flex justify-center items-center space-x-10 cursor-pointer text-gray-100 text-base leading-4">
             <li>

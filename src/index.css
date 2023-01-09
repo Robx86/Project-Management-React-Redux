@@ -6,3 +6,13 @@
   background-color: #242424;
 }
 
+.bg {
+  background-image: url(assets/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: min(100% - 15px, 1024px);
+  margin-inline: auto;
+}

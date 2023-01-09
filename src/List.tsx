@@ -154,14 +154,14 @@ function App() {
       <MenuProject />
 
       <div className="container mx-auto">
-        <div className="flex justify-center space-x-5 ">
+        <div className="grid  grid-cols-1 sm:grid-cols-3 gap-4 sm:space-x-5">
           <DragDropContext onDragEnd={onDragEnd}>
             <Droppable droppableId="droppable">
               {(provided, snapshot) => (
                 <div
                   ref={provided.innerRef}
                   style={getListStyle(snapshot.isDraggingOver)}
-                  className="w-80 border-2 h-min border-gray-500 rounded-md text-white bg-red-400 bg-opacity-10"
+                  className="flex-grow border-2 h-min border-gray-500 rounded-md text-white bg-red-400 bg-opacity-10"
                 >
                   <p className="p-2 pl-4 font-semibold text-red-400">Todo</p>
                   {items.map((item, index) => (
@@ -195,7 +195,7 @@ function App() {
                 <div
                   ref={provided.innerRef}
                   style={getListStyle(snapshot.isDraggingOver)}
-                  className="w-80 border-2 h-min border-gray-500 rounded-md text-white bg-yellow-400 bg-opacity-10"
+                  className="flex-grow border-2 h-min border-gray-500 rounded-md text-white bg-yellow-400 bg-opacity-10"
                 >
                   <p className="p-2 pl-4 font-semibold text-yellow-400">
                     Doing
@@ -230,7 +230,7 @@ function App() {
                 <div
                   ref={provided.innerRef}
                   style={getListStyle(snapshot.isDraggingOver)}
-                  className="w-80 border-2 h-min border-gray-500 rounded-md text-white bg-green-400 bg-opacity-10"
+                  className="flex-grow border-2 h-min border-gray-500 rounded-md text-white bg-green-400 bg-opacity-10"
                 >
                   <p className="p-2 pl-4 font-semibold text-green-400">
                     Completed
