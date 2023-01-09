@@ -154,7 +154,7 @@ function App() {
       <MenuProject />
 
       <div className="container mx-auto">
-        <div className="grid  grid-cols-1 sm:grid-cols-3 gap-4 sm:space-x-5">
+        <div className="grid  grid-cols-1 sm:grid-cols-3 gap-4 sm:space-x-5 mb-20">
           <DragDropContext onDragEnd={onDragEnd}>
             <Droppable droppableId="droppable">
               {(provided, snapshot) => (
