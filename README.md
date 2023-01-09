@@ -39,7 +39,7 @@ Clone o repositório
 ```bash
 
 # Clona o repositório
-git clone https://github.com/RobsonBarbosa2/Project-Management-React---Redux/
+git clone https://github.com/RobsonBarbosa2/Project-Management-React-Redux
 
 ```
 
